@@ -4,12 +4,12 @@ from datetime import datetime
 production = os.getenv("PRODUCTION", None) is not None
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-ctf_name = "IceCTF"
-eligibility = "In order to be eligible for prizes, all members of your team must be Icelandic residents, and you must not have more than three team members."
-tagline = "The Icelandic Hacking Competition"
+ctf_name = "M4K"
+eligibility = "A skeleton site for Mathematics education"
+tagline = "Making Math Fun"
 # IRC Channel
-ctf_chat_channel = "#IceCTF"
-ctf_home_url = "https://icec.tf"
+ctf_chat_channel = "#ChatM4K"
+ctf_home_url = "https://m4k.ca"
 
 # Serve javascript libraries from CDN
 cdn = True
@@ -23,13 +23,13 @@ proxied_ip_header = "X-Forwarded-For"
 teams_on_graph = 10
 
 # Which email to send out notifications from
-mail_from = "notice@icec.tf"
+mail_from = "notice@m4k.ca"
 
 # Wether to render the scoreboard on request or cache
 immediate_scoreboard = False
 
 # Banned email domains
-disallowed_domain = "icec.tf"
+disallowed_domain = "m4k.ca"
 
 # Where the static stuff is stored
 static_prefix = "/problem-static/"
